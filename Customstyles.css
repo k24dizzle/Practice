@@ -1,0 +1,18 @@
+.jumbotron {
+margin-bottom:0px;
+    }
+   .about .col-md-4 {
+   	margin-bottom: 30px;
+
+   }
+   .about img{
+height:140px;
+position: relative;
+padding-left: 28px;
+float: left;
+
+   }
+  #change{
+  	font-family:'Raleway', sans-serif;
+font-style: 50px;
+  }
