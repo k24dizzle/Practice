@@ -5,6 +5,16 @@ function initMap() {
     center: seattle,
     zoom: 8
   });
+    var marker = new google.maps.Marker({
+    position: seattle,
+    map: map,
+    title: 'Hello World!'
+      
+  });
+    marker.addListener('click', function() {
+   var test2 =  prompt("HLKHDSLFJL");
+    document.getElementById('test').innerHTML = test2;
+  });
 }
 
 var clr = "red"

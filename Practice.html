@@ -62,6 +62,17 @@ Map Test
 </h1>
 <div class = "row">
 <div class = "col-md-6">
+
+
+<div class = "searchcontainer">
+<input id="pac-input" class="controls" type="text"
+        placeholder="Enter a location">
+<div class = "searchbutton">
+<button type="button" class="btn btn-success text-center" id = "searchbutton" onclick="popup();"> Search! </button>
+</div>
+</div>
+
+
 <div id = "map">
 
 
@@ -69,7 +80,7 @@ Map Test
 
 </div>
 <div class = "col-md-6">
-
+<p id = "test"> </p>
 </div>
 </div>
 </div>
@@ -79,7 +90,9 @@ Map Test
 <textarea class="form-control" rows="3" id = "editor"></textarea>
 </div>
 <div class = "button-holder">
-<button type="button" class="btn btn-success" onclick="popup();">Success</button>
+
+<button type="button" class="btn btn-success" onclick="popup();">Send!</button>
+
 </div>
 
 </div>
